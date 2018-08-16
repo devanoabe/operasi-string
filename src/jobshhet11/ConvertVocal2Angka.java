@@ -44,6 +44,14 @@ private static String vocal2angka(String kalimat)
 }        
 
 
+private static void tampilPerKata(String kalimat, String convert)
+{
+    String[] arrKal = kalimat.split(" ");
+    String[] arrCon = convert.split(" ");
+    
+    for (int i=0; i<arrKal.length; i++)
+    {  System.out.println(arrKal[i]+ " => " +arrCon[i]); }
+}
 
 
 
