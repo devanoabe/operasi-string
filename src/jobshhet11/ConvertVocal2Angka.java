@@ -53,6 +53,10 @@ private static void tampilPerKata(String kalimat, String convert)
     {  System.out.println(arrKal[i]+ " => " +arrCon[i]); }
 }
 
+private static void tampilHasil(String convert)
+{
+    System.out.println("kalimat Alay Angka : " + convert);
+}
 
 
 
